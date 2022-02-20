@@ -20,7 +20,7 @@
 ## Descrição do projeto
 
 <p align="justify">
- O projeto é desenvolver alternativas atraves de algoritimo para a resolucionar os desafios de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.<br>
+  O projeto é desenvolver alternativas através de algorítimo para a solucionar os desafios de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.<br>
  O objetivo dessa etapa é testar os seus conhecimentos em lógica de programação. Para isso foi preparado três questões com diferentes níveis de dificuldades.
 </p>
 
@@ -64,7 +64,7 @@ Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima
 
 ## Como acessar a documentação
 
-Você pode acessar a documentção de cada desafio, procure o local onde o desafio estar, entre na pasta do `desafio`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
+Você pode acessar a documentação de cada desafio, procure o local onde o desafio estar, entre na pasta do `desafio`, vá à pasta `doc` entre nela e abra o seu navegador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 
 ## Abrir e rodar o projeto
 
@@ -77,11 +77,11 @@ Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://w
 ### [IntelliJ](https://www.jetbrains.com/pt-br/idea)
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em `File` e depois `open`.
 - Procure o local onde o projeto está e o selecione um dos desafios (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
-- O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
+- O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependências necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
 
 ### [Eclipse](https://www.eclipse.org/downloads)
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Selecione os tres desafios questão_01, questao_02 e questao_03 clique em `finish`.
+- Selecione os três desafios questão_01, questao_02 e questao_03 clique em `finish`.
 - Por fim clique com o botão direito sobre cada projeto vai em `mavem` e clique em `update project` ou `alt` + `f5`. 
-- O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App do desafio🏆
+- O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependências necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App do desafio🏆
