@@ -51,9 +51,13 @@
 ## Acesso ao projeto
 
 Você pode [acessar os códigos fontes do desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master)
-Clonando o projeto 
+
+### Clonando o projeto 
+
 Abra `Terminal`.
+
 Altere o diretório de trabalho `atual` para o local em que deseja ter o `diretório clonado`.
+
 Digite `git clone git@github.com:LuanRLima/capgemini-academia-desafio-programacao.git`.
 
 [Tutorial como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
