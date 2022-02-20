@@ -25,7 +25,7 @@
 
 ## Desafio
 
-### Questão 01:
+### [Questão 01](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_01):
 >Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços.<br> A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
 
 
@@ -59,7 +59,7 @@
 
 ## Acesso ao projeto
 
-Você pode [acessar os códigos fontes dos desafio](https://github.com/camilafernanda/GlicoCare) ou [baixá-lo](https://github.com/camilafernanda/GlicoCare/archive/refs/heads/main.zip).
+Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao) ou [baixá-lo](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/archive/refs/heads/master.zip).
 
 ## Abrir e rodar o projeto
 
