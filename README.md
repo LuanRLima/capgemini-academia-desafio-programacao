@@ -61,6 +61,10 @@
 
 Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao) ou [baixá-lo](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/archive/refs/heads/master.zip).
 
+## Como acessar a documentação
+
+Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao) ou [baixá-lo](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/archive/refs/heads/master.zip).
+
 ## Abrir e rodar o projeto
 
 ### Pré-requisitos
