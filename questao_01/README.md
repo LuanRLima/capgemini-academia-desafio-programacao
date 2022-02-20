@@ -31,7 +31,7 @@ Entrada:
 n = 6
 
 
-Saída:
+Saída:<br>
           *<br>
         **<br>
       ***<br>
