@@ -69,12 +69,12 @@ Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima
 
 Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://www.jetbrains.com/pt-br/idea), [Eclipse](https://www.eclipse.org/downloads) ou IDE de sua preferência.
 
-### Intellij
+### IntelliJ](https://www.jetbrains.com/pt-br/idea)
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em File e depois open.
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
 - O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
 - Agora pode executar  o projeto. 
-### Eclipse
+### [Eclipse](https://www.eclipse.org/downloads)
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
 - Selecione os tres desafios questão_01, questao_02 e questao_03 clique em `finish`.
