@@ -32,12 +32,12 @@ Entrada:
 n = 6
 
 >Saída:
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;**</p>
-<p>&nbsp;&nbsp;&nbsp;***</p>
-<p>&nbsp;&nbsp;****</p>
-<p>&nbsp;*****</p>
-<p> ******</p>
+><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
+><p>&nbsp;&nbsp;&nbsp;&nbsp;**</p>
+><p>&nbsp;&nbsp;&nbsp;***</p>
+><p>&nbsp;&nbsp;****</p>
+><p>&nbsp;*****</p>
+><p> ******</p>
 
 
 
