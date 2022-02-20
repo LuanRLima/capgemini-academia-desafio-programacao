@@ -65,7 +65,7 @@ Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima
 
 ### Pré-requisitos
 - Baixar e instalar o [jdk 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html).
-- Baixar e instalar o [IntelliJ](https://www.jetbrains.com/pt-br/idea), [Eclipse](https://www.eclipse.org/downloads) 
+- Baixar e instalar o [IntelliJ](https://www.jetbrains.com/pt-br/idea), [Eclipse](https://www.eclipse.org/downloads) ou IDE de sua preferência. 
 
 Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://www.jetbrains.com/pt-br/idea), [Eclipse](https://www.eclipse.org/downloads) ou IDE de sua preferência.
 
