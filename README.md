@@ -2,21 +2,20 @@
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
+
 ### Tópicos 
 
 :small_blue_diamond:[Descrição do projeto](#descrição-do-projeto)
 
-- [Desafio](#desafio)
+:small_blue_diamond:[Desafio](#desafio)
 
-- [Ferramentas utilizadas](#ferramentas-utilizadas)
+:small_blue_diamond:[Ferramentas utilizadas](#ferramentas-utilizadas)
 
-- [Pré-requisitos](#pre-requisitos)
+:small_blue_diamond:[Pré-requisitos](#pre-requisitos)
 
-- [Acesso ao projeto](#acesso-ao-projeto)
+:small_blue_diamond:[Acesso ao projeto](#acesso-ao-projeto)
 
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
-- [Desenvolvedores](#desenvolvedores)
+:small_blue_diamond:[Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
 ## Descrição do projeto
 
