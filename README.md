@@ -63,7 +63,7 @@ Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima
 
 ## Como acessar a documentação
 
-Você pode acessar a documentção de cada desafio, procure o local onde o desafio estar, entre na pasta do `desafio`, d entre na pasta `doc` e abra o no seu navagador `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
+Você pode acessar a documentção de cada desafio, procure o local onde o desafio estar, entre na pasta do `desafio`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 
 ## Abrir e rodar o projeto
 
