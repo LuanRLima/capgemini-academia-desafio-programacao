@@ -29,7 +29,7 @@
 >Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços.<br> A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
 
 
-###Questão 02:
+### Questão 02:
 
 > Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
 > - Possui no mínimo 6 caracteres.
@@ -38,7 +38,7 @@
 > - Contém no mínimo 1 letra em maiúsculo.
 > - Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
 
-###Questão 03:
+### Questão 03:
 >Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
 
 <div align="center">
@@ -69,12 +69,12 @@ Você pode [acessar os códigos fontes dos desafio](https://github.com/camilafer
 
 Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://www.jetbrains.com/pt-br/idea), [Eclipse](https://www.eclipse.org/downloads) ou IDE de sua preferência.
 
-###Intellij
+### Intellij
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em File e depois open.
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
 - O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
 - Agora pode executar  o projeto. 
-###Eclipse
+### Eclipse
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
 - Selecione os tres desafios questão_01, questao_02 e questao_03 clique em `finish`.
