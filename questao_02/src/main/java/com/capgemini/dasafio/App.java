@@ -143,9 +143,7 @@ public class App {
      * necessários para que seja forte.
      * 
      * @param senha        - String que representa a senha.
-     * @param achouSimbolo - boolean que representa se a senha já possui o mínimo de
-     *                     caracteres especiais necessários para que seja forte, se
-     *                     já tiver passa para true.
+     *
      * @return boolean - Retorna true se a senha possuir o mínimo de caracteres
      *         especiais necessários para que seja forte e false se não possuir.
      */
