@@ -47,7 +47,7 @@ public class App {
         boolean achouNumero = false;
         boolean achouMaiuscula = false;
         boolean achouMinuscula = false;
-        boolean achouSimbolo = false;
+        boolean achouSimbolo = validacaoSimbolo(senha);
 
         for (char c : senha.toCharArray()) {
 
@@ -55,7 +55,6 @@ public class App {
             achouMaiuscula = validacaoMaiuscula(c, achouMaiuscula);
             achouMinuscula = validacaoMinuscula(c, achouMinuscula);
         }
-        achouSimbolo = validacaoSimbolo(senha, achouSimbolo);
 
         System.out.println(mensagemRetorno(minimoCaracteres,
                 achouNumero,
@@ -150,22 +149,13 @@ public class App {
      * @return boolean - Retorna true se a senha possuir o mínimo de caracteres
      *         especiais necessários para que seja forte e false se não possuir.
      */
-    public static boolean validacaoSimbolo(String senha, Boolean achouSimbolo) {
-        boolean outroTipo = false;
-        
-        boolean validarSimbolo = achouSimbolo;
+    public static boolean validacaoSimbolo(String senha) {
+         
+        boolean validarSimbolo = false;
 
         for (char c : senha.toCharArray()) {
-            if (c >= '0' && c <= '9') {
-                outroTipo = true;
-            } else if (c >= 'A' && c <= 'Z') {
-                outroTipo = true;
-            } else if (c >= 'a' && c <= 'z') {
-                outroTipo = true;
-            } else {
-                validarSimbolo = true;
-            }
-
+            if (!(c >= '0' && c <= '9') && !(c >= 'A' && c <= 'Z') && !(c >= 'a' && c <= 'z')) 
+                return  validarSimbolo = true;
         }
         return validarSimbolo;
     }
