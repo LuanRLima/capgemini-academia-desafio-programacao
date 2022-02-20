@@ -73,11 +73,10 @@ Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://w
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em `File` e depois `open`.
 - Procure o local onde o projeto está e o selecione um dos desafios (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
 - O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
-- Agora pode executar  o projeto. 
+
 ### [Eclipse](https://www.eclipse.org/downloads)
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
 - Selecione os tres desafios questão_01, questao_02 e questao_03 clique em `finish`.
 - Por fim clique com o botão direito sobre cada projeto vai em `mavem` e clique em `update project` ou `alt` + `f5`. 
-- Agora  pode o executar projeto.
-    O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
+- O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App do desafio🏆
