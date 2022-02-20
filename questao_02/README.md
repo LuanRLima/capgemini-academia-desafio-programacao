@@ -19,7 +19,6 @@
 
 <p align="justify">
 O projeto é desenvolver alternativa através de algorítimo para a solucionar a questão 02, do desafio  de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.<br>Nesse projeto fiz um pouco a mais que o pedido no desafio, não só retornei a quantidade de caracteres que faltavam para senha ser forte.
-Eu fiz todo processo de validação usando com base o exemplo das exigências da rede social, que Barbara estava tentando acessar e os caracteres especias incluir todos os possíveis na lista não só o informado no enunciado.
  
 </p>
 
@@ -43,6 +42,8 @@ Eu fiz todo processo de validação usando com base o exemplo das exigências da
 >>><p>3</p>
 >>Explicação:
 >>>Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab.<br>Dois caracteres não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
+
+<p>Eu fiz todo processo de validação usando com base o exemplo das exigências da rede social, que Barbara estava tentando acessar e os caracteres especias incluir todos os possíveis na lista não só o informado no enunciado.</p>
 
 ## Ferramentas utilizadas
 
