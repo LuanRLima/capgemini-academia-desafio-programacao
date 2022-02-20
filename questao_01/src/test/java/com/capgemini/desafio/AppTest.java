@@ -11,10 +11,11 @@ public class AppTest {
       String esperado = "    *\n" + "   **\n" + "  ***\n" + " ****\n" + "*****";
       assertEquals(esperado, App.construirDegraus(5));
    }
+
    @Test
-   public void testeFalharConstruirDegraus(){
-        String esperado = "    *\n" + "   **\n" + "  ***\n" + " ****\n" + "*****";
-        assertNotEquals(esperado, App.construirDegraus(4));
+   public void testeFalharConstruirDegraus() {
+      String esperado = "    *\n" + "   **\n" + "  ***\n" + " ****\n" + "*****";
+      assertNotEquals(esperado, App.construirDegraus(4));
    }
 
 }

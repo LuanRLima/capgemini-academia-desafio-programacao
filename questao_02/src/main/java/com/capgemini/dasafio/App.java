@@ -1,14 +1,15 @@
 package com.capgemini.dasafio;
 
 import java.util.Scanner;
+
 /**
  * Classe onde serão realizadas as validações de senha.
  */
 public class App {
 
-    
-    /** 
+    /**
      * Método principal onde o programa é executado.
+     * 
      * @param args
      */
     public static void main(String[] args) {
@@ -22,20 +23,22 @@ public class App {
 
         sc.close();
     }
-    
-    /** 
+
+    /**
      * Método que verifica se a senha é forte e retorna true ou false,
-     *  imprime a mensagem de acordo com o resultado informando, o que é necessário
-     *  para que a senha seja forte: 
-     *   
-     *   possui no mínimo 6 caracteres, 
-     *   contém no mínimo 1 digito,
-     *   contém no mínimo 1 letra em minúsculo,
-     *   contém no mínimo 1 letra em maiúsculo,
-     *   contém no mínimo 1 caractere especial os caracteres especiais são: !@#$%^&*()-+
+     * imprime a mensagem de acordo com o resultado informando, o que é necessário
+     * para que a senha seja forte:
+     * 
+     * possui no mínimo 6 caracteres,
+     * contém no mínimo 1 digito,
+     * contém no mínimo 1 letra em minúsculo,
+     * contém no mínimo 1 letra em maiúsculo,
+     * contém no mínimo 1 caractere especial os caracteres especiais são:* !@#$%^&*()-+
+     * 
      * @param senha - String que representa a senha
-     * @return boolean - Retorna true se a senha atender todas recomedaçõe e false se não atender
-     *   
+     * @return boolean - Retorna true se a senha atender todas recomedaçõe e false
+     *         se não atender
+     * 
      */
     public static boolean senhaForte(String senha) {
         senha = senha.replace(" ", "");
@@ -54,7 +57,7 @@ public class App {
             achouMinuscula = validacaoMinuscula(c, achouMinuscula);
         }
         achouSimbolo = validacaoSimbolo(senha, achouSimbolo);
-        
+
         System.out.println(mensagemRetorno(minimoCaracteres,
                 achouNumero,
                 achouMaiuscula,
@@ -66,84 +69,88 @@ public class App {
         return minimoCaracteres && achouNumero && achouMaiuscula && achouMinuscula && achouSimbolo;
     }
 
-    
-    /** 
-     * Método que verifica se a senha possui o mínimo de caracteres necessários para que seja forte.
+    /**
+     * Método que verifica se a senha possui o mínimo de caracteres necessários para
+     * que seja forte.
+     * 
      * @param senha - String que representa a senha
-     * @return boolean - Retorna true se a senha possui o mínimo de caracteres necessários para que seja forte e false se não possuir.
+     * @return boolean - Retorna true se a senha possui o mínimo de caracteres
+     *         necessários para que seja forte e false se não possuir.
      */
     public static boolean validacaoCaractaresMinimo(String senha) {
-        if (senha.length() < 6) {
+        if (senha.length() < 6) 
             return false;
-        } else {
-            return true;
-        }
+       
+        return true;
+        
     }
 
-    
-    /** 
-     * Método que verifica se a senha possui o mínimo de numeros necessários para que seja forte.
-     * @param ch - Representa o caractere da senha
-     * @param achouNumero - boolean que representa se a senha já possui o mínimo de numeros necessários para que seja forte, se já tiver passa para true
-     * @return boolean - Retorna true se a senha possuir o mínimo de numeros necessários para que seja forte e false se não possuir.
+    /**
+     * Método que verifica se a senha possui o mínimo de numeros necessários para
+     * que seja forte.
+     * 
+     * @param ch          - Representa o caractere da senha
+     * @param achouNumero - boolean que representa se a senha já possui o mínimo de
+     *                    numeros necessários para que seja forte, se já tiver passa
+     *                    para true
+     * @return boolean - Retorna true se a senha possuir o mínimo de numeros
+     *         necessários para que seja forte e false se não possuir.
      */
     public static boolean validacaoNumero(char ch, Boolean achouNumero) {
 
-        if (ch >= '0' && ch <= '9') {
+        if (ch >= '0' && ch <= '9')
             return true;
-        } else {
-            if (achouNumero == false) {
-                return false;
-            } else {
-                return true;
-            }
-        }
+
+        return achouNumero;
+
     }
 
-    
-    /** 
-     * Método que verifica se a senha possui o mínimo de letras maiusculas necessários para que seja forte.
-     * @param ch - Representa o caractere da senha
-     * @param achouMaiuscula - boolean que representa se a senha já possui o mínimo de letras maiusculas necessários para que seja forte, se já tiver passa para true
-     * @return boolean - Retorna true se a senha possuir o mínimo de letras maiusculas necessários para que seja forte e false se não possuir.
+    /**
+     * Método que verifica se a senha possui o mínimo de letras maiusculas
+     * necessários para que seja forte.
+     * 
+     * @param ch             - Representa o caractere da senha
+     * @param achouMaiuscula - boolean que representa se a senha já possui o mínimo
+     *                       de letras maiusculas necessários para que seja forte,
+     *                       se já tiver passa para true
+     * @return boolean - Retorna true se a senha possuir o mínimo de letras
+     *         maiusculas necessários para que seja forte e false se não possuir.
      */
     public static boolean validacaoMaiuscula(char ch, Boolean achouMaiuscula) {
-        if (ch >= 'A' && ch <= 'Z') {
+        if (ch >= 'A' && ch <= 'Z') 
             return true;
-        } else {
-            if (achouMaiuscula == false) {
-                return false;
-            } else {
-                return true;
-            }
-        }
+
+        return achouMaiuscula;
     }
 
-    
-    /** 
-     * Método que verifica se a senha possui o mínimo de letras minusculas necessários para que seja forte.
-     * @param ch - Representa o caractere da senha.
-     * @param achouMinuscula - boolean que representa se a senha já possui o mínimo de letras minusculas necessários para que seja forte, se já tiver passa para true.
-     * @return boolean - Retorna true se a senha possuir o mínimo de letras minusculas necessários para que seja forte e false se não possuir.
+    /**
+     * Método que verifica se a senha possui o mínimo de letras minusculas
+     * necessários para que seja forte.
+     * 
+     * @param ch             - Representa o caractere da senha.
+     * @param achouMinuscula - boolean que representa se a senha já possui o mínimo
+     *                       de letras minusculas necessários para que seja forte,
+     *                       se já tiver passa para true.
+     * @return boolean - Retorna true se a senha possuir o mínimo de letras
+     *         minusculas necessários para que seja forte e false se não possuir.
      */
     public static boolean validacaoMinuscula(char ch, Boolean achouMinuscula) {
-        if (ch >= 'a' && ch <= 'z') {
+        if (ch >= 'a' && ch <= 'z') 
             return true;
-        } else {
-            if (achouMinuscula == false) {
-                return false;
-            } else {
-                return true;
-            }
-        }
+            
+        return achouMinuscula;
     }
 
-    
-    /** 
-     * Método que verifica se a senha possui o mínimo de caracteres especiais necessários para que seja forte.
-     * @param senha - String que representa a senha.
-     * @param achouSimbolo - boolean que representa se a senha já possui o mínimo de caracteres especiais necessários para que seja forte, se já tiver passa para true.
-     * @return boolean - Retorna true se a senha possuir o mínimo de caracteres especiais necessários para que seja forte e false se não possuir.
+    /**
+     * Método que verifica se a senha possui o mínimo de caracteres especiais
+     * necessários para que seja forte.
+     * 
+     * @param senha        - String que representa a senha.
+     * @param achouSimbolo - boolean que representa se a senha já possui o mínimo de
+     *                     caracteres especiais necessários para que seja forte, se
+     *                     já tiver passa para true.
+     * @return boolean - Retorna true se a senha possuir o mínimo de caracteres
+     *         especiais necessários para que seja forte e false se não possuir.
      */
     public static boolean validacaoSimbolo(String senha, Boolean achouSimbolo) {
         boolean outroTipo = false;
@@ -164,17 +171,31 @@ public class App {
         return validarSimbolo;
     }
 
-    
-    /** 
-     * Método que retorna uma mensagem personalizada de acordo os paramentos recebidos.
-     * @param minimoCaracteres - boolean que representa se a senha já possui o mínimo de caracteres necessários para que seja forte
-     * @param achouNumero - boolean que representa se a senha já possui o mínimo de numeros necessários para que seja forte
-     * @param achouMaiuscula - boolean que representa se a senha já possui o mínimo de letras maiusculas necessários para que seja forte
-     * @param achouMinuscula - boolean que representa se a senha já possui o mínimo de letras minusculas necessários para que seja forte
-     * @param achouSimbolo - boolean que representa se a senha já possui o mínimo de caracteres especiais necessários para que seja forte
-     * @param senha - String que representa a senha.
-     * @param quantidadeCharFaltaSenhaForte - inteiro que representa quantos caracteres faltam para que a senha seja forte.
-     * @return String - Retorna uma mensagem personalizada com base nos paramentos recebidos.
+    /**
+     * Método que retorna uma mensagem personalizada de acordo os paramentos
+     * recebidos.
+     * 
+     * @param minimoCaracteres              - boolean que representa se a senha já
+     *                                      possui o mínimo de caracteres
+     *                                      necessários para que seja forte
+     * @param achouNumero                   - boolean que representa se a senha já
+     *                                      possui o mínimo de numeros necessários
+     *                                      para que seja forte
+     * @param achouMaiuscula                - boolean que representa se a senha já
+     *                                      possui o mínimo de letras maiusculas
+     *                                      necessários para que seja forte
+     * @param achouMinuscula                - boolean que representa se a senha já
+     *                                      possui o mínimo de letras minusculas
+     *                                      necessários para que seja forte
+     * @param achouSimbolo                  - boolean que representa se a senha já
+     *                                      possui o mínimo de caracteres especiais
+     *                                      necessários para que seja forte
+     * @param senha                         - String que representa a senha.
+     * @param quantidadeCharFaltaSenhaForte - inteiro que representa quantos
+     *                                      caracteres faltam para que a senha seja
+     *                                      forte.
+     * @return String - Retorna uma mensagem personalizada com base nos paramentos
+     *         recebidos.
      */
     public static String mensagemRetorno(boolean minimoCaracteres, boolean achouNumero, boolean achouMaiuscula,
             boolean achouMinuscula, boolean achouSimbolo, String senha, int quantidadeCharFaltaSenhaForte) {
