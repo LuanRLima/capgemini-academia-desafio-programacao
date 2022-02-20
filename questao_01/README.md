@@ -41,18 +41,6 @@
 >>><p> ******</p>
 
 
-
->
-
-### [Questão 03](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_03):
-
->Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
-
-<div align="center">
-
-  </div>
-
-
 ## Ferramentas utilizadas
 
 <h3><a href="https://www.java.com"> Java - 11</a></h3>
@@ -60,13 +48,15 @@
 <h3><a href="https://www.java.com"> Maven</a></h3>
 
 
-
-
-
-
 ## Acesso ao projeto
 
-Você pode [acessar os códigos fontes dos desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao) ou [baixá-lo](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/archive/refs/heads/master.zip).
+Você pode [acessar os códigos fontes do desafio](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master)
+Clonando o projeto 
+Abra `Terminal`.
+Altere o diretório de trabalho `atual` para o local em que deseja ter o `diretório clonado`.
+Digite `git clone git@github.com:LuanRLima/capgemini-academia-desafio-programacao.git`.
+
+[Tutorial como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## Como acessar a documentação
 
