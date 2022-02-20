@@ -20,7 +20,8 @@
 ## Descrição do projeto
 
 <p align="justify">
- Olá! Seja bem-vindo (a) à terceira etapa do processo de seleção para a Academia Capgemini 2022. O objetivo dessa etapa é testar os seus conhecimentos em lógica de programação. Para isso, preparamos três questões com diferentes níveis de dificuldade. A implementação das questões pode ser feita em qualquer linguagem, porém a utilização de Java será um diferencial.
+ O projeto é desenvolver alternativas atraves de algoritimo para a resolucionar os desafios de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.
+ O objetivo dessa etapa é testar os seus conhecimentos em lógica de programação. Para isso, preparamos três questões com diferentes níveis de dificuldade. A
 </p>
 
 ## Desafio
