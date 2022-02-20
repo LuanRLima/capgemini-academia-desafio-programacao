@@ -2,7 +2,9 @@ package com.capgemini.dasafio;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
-
+/**
+ * Classe onde vai ser executado os testes validar letras minusculas.
+ */
 public class ValidarMinusculaTest {
     /**
      * Método de teste informamos um char 'a' para efetuar validação e false para informar que a senha não possui nenhuma letra maiuscula validada, para validar o  método validacaoMaiuscula estamos esperando true se não retorna true o método esta com alguma erro.
@@ -13,6 +15,7 @@ public class ValidarMinusculaTest {
     }
     /**
      * Método de teste informamos um char 'a' para efetuar validação e true para informar que a senha possui uma letra minuscula validada, para validar o  método validacaoMinuscula estamos esperando true se não retorna true o método esta com alguma erro.
+     * @author Luan Rodrigues Lima
      */
     @Test
     public void testeValidarMinusculaAchouMinusculaVerdadeiro() {

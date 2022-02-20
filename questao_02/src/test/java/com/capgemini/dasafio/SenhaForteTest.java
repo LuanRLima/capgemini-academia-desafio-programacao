@@ -3,10 +3,13 @@ package com.capgemini.dasafio;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
+/**
+ * Classe onde vai ser executado os testes de senhaForte;
+ */
 public class SenhaForteTest {
     /**
      * Método que testa a o senhaForte, passamos uma senha que atende a todas as condições e esperamos que retorne true, para validar o método estamos esperando resultado igual  true se não retorna  igual true o método esta com alguma erro.
+     * @author Luan Rodrigues Lima
      */
     @Test
     public void testSenhaForte(){

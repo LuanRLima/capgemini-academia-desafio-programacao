@@ -3,7 +3,7 @@ package com.capgemini.desafio;
 import java.util.Scanner;
 
 /**
- * A Classe onde vai ser ser executado as construções dos degraus.
+ * Classe onde vai ser ser executado as construções dos degraus.
  */
 public class App {
     

@@ -10,6 +10,9 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe onde é executado os testes.
+ */
 public class AppTest {
     /**
      * Método que testa  a quantidadeAnagramas, passamos a palavra "ovo" e esperamos que retorne a quantidade de anagramas pares de si mesma, para validar o método estamos esperando resultado igual  3 se não retorna  igual 3 o método esta com alguma erro.

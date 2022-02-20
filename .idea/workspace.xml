@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbffae6d-5441-459f-995d-e0aeb91676b6" name="Changes" comment="" />
+    <list default="true" id="cbffae6d-5441-459f-995d-e0aeb91676b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/com/capgemini/desafio/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/doc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_01/src/test/java/com/capgemini/desafio/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/questao_01/src/test/java/com/capgemini/desafio/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/capgemini-academia-desafio-programacao-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/questao_01" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

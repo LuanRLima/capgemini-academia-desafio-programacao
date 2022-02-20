@@ -9,8 +9,7 @@ public class App {
 
     /**
      * Método principal onde o programa é executado.
-     * 
-     * @param args
+     * @param args the arguments
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -33,7 +32,7 @@ public class App {
      * contém no mínimo 1 digito,
      * contém no mínimo 1 letra em minúsculo,
      * contém no mínimo 1 letra em maiúsculo,
-     * contém no mínimo 1 caractere especial os caracteres especiais são:* !@#$%^&*()-+
+     * contém no mínimo 1 caractere especial os caracteres especiais.
      * 
      * @param senha - String que representa a senha
      * @return boolean - Retorna true se a senha atender todas recomedaçõe e false
@@ -74,8 +73,7 @@ public class App {
      * que seja forte.
      * 
      * @param senha - String que representa a senha
-     * @return boolean - Retorna true se a senha possui o mínimo de caracteres
-     *         necessários para que seja forte e false se não possuir.
+     * @return boolean - Retorna true se a senha possui o mínimo de caracteres necessários, para que seja forte e false se não possuir.
      */
     public static boolean validacaoCaractaresMinimo(String senha) {
         if (senha.length() < 6) 

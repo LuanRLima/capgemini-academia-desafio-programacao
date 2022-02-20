@@ -2,11 +2,14 @@ package com.capgemini.dasafio;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
-
+/**
+ * Classe de teste para validar o método validacaoCaracteresEspeciais.
+ */
 public class ValidarSimboloTest {
     
     /**
      * Método de testeValidarSimbolo informamos uma senha "201@3' para efetuar validação e false para informar que a senha não possui nenhuma letra minuscula validada, para validar o  método validacaoMinuscula estamos esperando true se não retorna true o método esta com alguma erro.
+     * @author Luan Rodrigues Lima
      */
     @Test
     public void testeValidarSimbolo() {

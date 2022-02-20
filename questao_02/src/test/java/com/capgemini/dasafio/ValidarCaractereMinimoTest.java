@@ -3,10 +3,14 @@ package com.capgemini.dasafio;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe onde vai ser executado os testes validar caracteres mínimos.
+ */
 public class ValidarCaractereMinimoTest {
      
     /**
      * Método de teste criamos uma senha para validar o  método validacaoCaractaresMinimo estamos esperando true se não retorna true o metodo esta com alguma erro.
+     * @author  Luan Rodrigues Lima
      */
     @Test
     public void testeValidarCaractereMinimo() {

@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * Classe para verificar a quantidade de anagramas possiveis.
  * @author LuanRLima
- *
  */
 public class App {
     
@@ -66,10 +65,10 @@ public class App {
     }
 
 	
-    /** 
+    /**
      * Método que cria possibilidades de anagramas.
      * @param s  String a ser analisada.
-     * @return List<String> - Retorna uma lista com possibilidades de anagramas.
+     * @return List-String - Retorna uma lista com possibilidades de anagramas.
      */
     public static List<String> criandoPossibilidadeAnagramas(String s) {
 		List<String> lista = new ArrayList<>();

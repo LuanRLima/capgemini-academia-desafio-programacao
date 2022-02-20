@@ -4,10 +4,14 @@ package com.capgemini.dasafio;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe onde vai ser executado os testes validar numeros.
+ */
 public class ValidarNumeroTest {
    
     /**
      * Método de teste informamos um char '1' para efetuar validação e false para informar que a senha não possui nenhum numero validado, para validar o  método validacaoNumero estamos esperando true se não retorna true o metodo esta com alguma erro.
+     * @author Luan Rodrigues Lima
      */
     @Test
     public void testeValidarNumero() {

@@ -4,6 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe onde vai ser executado os testes retorno das mensagens.
+ * @author Luan Rodrigues Lima
+ */
 public class MensagemRetornoTest  {
      /**
      * Método de testeMensagemRetornoSenhaForteOk informamos uma senha "Lu-310' e alguns dados para efetuar validação e retorna a mensagem "Senha Forte" para validar o  método mensagemRetornoSenhaForte estamos esperando "Senha Forte" se não retorna "Senha Fraca" o método esta com alguma erro.
