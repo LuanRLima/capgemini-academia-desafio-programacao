@@ -48,8 +48,8 @@
 
 ## Ferramentas utilizadas
 
-<h3><a href="https://www.java.com"> Java</a></h3>
-<h3><a href="https://www.java.com"> Junit</a></h3>
+<h3><a href="https://www.java.com"> Java-11</a></h3>
+<h3><a href="https://www.java.com"> Junit-5</a></h3>
 <h3><a href="https://www.java.com"> Maven</a></h3>
 
 
