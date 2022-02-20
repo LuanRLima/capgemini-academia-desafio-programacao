@@ -41,8 +41,7 @@
 >>Saída:
 >>><p>3</p>
 >>Explicação:
->>><p>Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab.<p>
->>>2 caracteres não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
+>>>Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab.<br>2 caracteres não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
 
 ## Ferramentas utilizadas
 
