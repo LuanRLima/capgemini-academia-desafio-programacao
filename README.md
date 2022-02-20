@@ -28,8 +28,7 @@
 ### [Questão 01](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_01):
 >Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços.<br> A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
 
-
-### Questão 02:
+### [Questão 02](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_02):
 
 > Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
 > - Possui no mínimo 6 caracteres.
@@ -38,7 +37,8 @@
 > - Contém no mínimo 1 letra em maiúsculo.
 > - Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
 
-### Questão 03:
+### [Questão 03](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_03):
+
 >Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
 
 <div align="center">
