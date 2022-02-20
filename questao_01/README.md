@@ -26,12 +26,11 @@
 
 ### [Questão 01](https://github.com/LuanRLima/capgemini-academia-desafio-programacao/tree/master/questao_01):
 >Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
-Exemplo:
+
+>Exemplo:
 Entrada:
 n = 6
-
-
-Saída:<br>
+Saída:
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;**</p>
 <p>&nbsp;&nbsp;&nbsp;***</p>
