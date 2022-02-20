@@ -71,7 +71,7 @@ Digite `git clone git@github.com:LuanRLima/capgemini-academia-desafio-programaca
 
 ## Como acessar a documentação
 
-Você pode acessar a documentação do projeto questao_02 do desafio, procure a pasta onde a projeto questão_02 estar, entre na pasta do `questao_02`, vá à pasta `doc` entre nela e abra o seu navegador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
+Você pode acessar a documentação do projeto questao_03 do desafio, procure a pasta onde a projeto questão_03 estar, entre na pasta do `questao_03`, vá à pasta `doc` entre nela e abra o seu navegador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 
 ## Abrir e rodar o projeto
 
@@ -83,12 +83,12 @@ Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://w
 
 ### [IntelliJ](https://www.jetbrains.com/pt-br/idea)
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em `File` e depois `open`.
-- Procure o local onde o projeto está e o selecione a pasta questao_02 (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
+- Procure o local onde o projeto está e o selecione a pasta questao_03 (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
 - O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependências necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
 
 ### [Eclipse](https://www.eclipse.org/downloads)
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Selecione só a questão_02 `finish`.
-- Por fim clique com o botão direito sobre o projeto questao_02 vá em `mavem` e clique em `update project` ou `alt` + `f5`. 
+- Selecione só a questão_03 `finish`.
+- Por fim clique com o botão direito sobre o projeto questao_03 vá em `mavem` e clique em `update project` ou `alt` + `f5`. 
 - O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependências necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App do desafio🏆
