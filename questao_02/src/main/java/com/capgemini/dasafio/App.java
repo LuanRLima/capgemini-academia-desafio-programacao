@@ -154,7 +154,8 @@ public class App {
      */
     public static boolean validacaoSimbolo(String senha, Boolean achouSimbolo) {
         boolean outroTipo = false;
-        boolean validarSimbolo = false;
+        
+        boolean validarSimbolo = achouSimbolo;
 
         for (char c : senha.toCharArray()) {
             if (c >= '0' && c <= '9') {
