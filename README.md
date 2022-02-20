@@ -20,7 +20,7 @@
 ## Descrição do projeto
 
 <p align="justify">
- O projeto é desenvolver alternativas atraves de algoritimo para a resolucionar os desafios de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.
+ O projeto é desenvolver alternativas atraves de algoritimo para a resolucionar os desafios de programação da terceira etapa do processo de seleção para a Academia Capgemini 2022.<br>
  O objetivo dessa etapa é testar os seus conhecimentos em lógica de programação. Para isso, preparamos três questões com diferentes níveis de dificuldade. A
 </p>
 
