@@ -60,11 +60,11 @@ Altere o diretório de trabalho `atual` para o local em que deseja ter o `diret�
 
 Digite `git clone git@github.com:LuanRLima/capgemini-academia-desafio-programacao.git`.
 
-[Tutorial como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
+[Tutorial como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## Como acessar a documentação
 
-Você pode acessar a documentção de cada desafio, procure o local onde o desafio estar, entre na pasta do `desafio`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
+Você pode acessar a documentção do questao_01 do desafio, procure o pasta onde o questão_01 estar, entre na pasta do `questao_01`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 
 ## Abrir e rodar o projeto
 
@@ -76,12 +76,12 @@ Após baixar o projeto, você pode abrir com o IDE favorita [IntelliJ](https://w
 
 ### [IntelliJ](https://www.jetbrains.com/pt-br/idea)
 - No [IntelliJ](https://www.jetbrains.com/pt-br/idea) você clica em `File` e depois `open`.
-- Procure o local onde o projeto está e o selecione um dos desafios (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
+- Procure o local onde o projeto está e o selecione a pasta questao_01 (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo) por fim clique em `OK`.
 - O [IntelliJ](https://www.jetbrains.com/pt-br/idea) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆
 
 ### [Eclipse](https://www.eclipse.org/downloads)
 No [Eclipse](https://www.eclipse.org/downloads) você clica em `File` e depois `import`.
 - Procure por `maven`, escolhe `Existing Maven Projects`, clica em `next` e procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Selecione os tres desafios questão_01, questao_02 e questao_03 clique em `finish`.
-- Por fim clique com o botão direito sobre cada projeto vai em `mavem` e clique em `update project` ou `alt` + `f5`. 
+- Selecione só a questão_01 `finish`.
+- Por fim clique com o botão direito sobre o projeto questao_01 va em `mavem` e clique em `update project` ou `alt` + `f5`. 
 - O [Eclipse](https://www.eclipse.org/downloads) deve executar algumas tasks do [maven](https://maven.apache.org) para configurar o projeto e baixar as dependencias necessárias, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App do desafio🏆
