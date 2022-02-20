@@ -32,11 +32,11 @@ n = 6
 
 
 Saída:<br>
-<p>          *</p><br>
-<p>         **</p><br>
-<p>      ***</p><br>
-<p>     ****</p><br>
-<p>   *****</p><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;**</p>
+<p>&nbsp;&nbsp;&nbsp;***</p>
+<p>&nbsp;&nbsp;****</p>
+<p>&nbsp;*****</p>
 <p> ******</p>
 
 
