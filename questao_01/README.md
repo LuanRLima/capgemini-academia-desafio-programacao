@@ -64,7 +64,7 @@ Digite `git clone git@github.com:LuanRLima/capgemini-academia-desafio-programaca
 
 ## Como acessar a documentação
 
-Você pode acessar a documentção do questao_01 do desafio, procure o pasta onde o questão_01 estar, entre na pasta do `questao_01`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
+Você pode acessar a documentção do proejto questao_01 do desafio, procure a pasta onde a projeto questão_01 estar, entre na pasta do `questao_01`, va na pasta `doc` entre nela e abra o no seu navagador o arquivo `index.html`. (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 
 ## Abrir e rodar o projeto
 
